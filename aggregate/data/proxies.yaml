@@ -1,0 +1,160 @@
+proxies:
+- alterId: 0
+  cipher: auto
+  name: SZ-HFX
+  network: ws
+  port: 1548
+  server: opiyxu1hd2pu09xuev99jx6bm1vtxn.fly64jfgwhale.xyz
+  servername: opiyxu1hd2pu09xuev99jx6bm1vtxn.fly64jfgwhale.xyz
+  skip-cert-verify: true
+  tls: true
+  type: vmess
+  udp: true
+  uuid: d8d5f282-458f-45b8-a4d3-f0eb05c302ed
+  ws-opts:
+    headers:
+      Host: azure.com
+    path: /WER3R21T
+- alterId: 0
+  cipher: auto
+  name: 重要-请使用 META 内核 CLASH
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: mai.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国03-边缘
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: kuus.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国05-边缘
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: rn.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国06-边缘
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: six.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 美国07-边缘
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: seven.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 加拿大01-边缘
+  network: ws
+  port: 80
+  server: vps789.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: ca.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 罗马尼亚01-边缘
+  network: ws
+  port: 80
+  server: csgo.com
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 87989971-17ce-4cc6-a554-5f72862beacb
+  ws-opts:
+    headers:
+      Host: romania.nekoneko.buzz
+    path: /cctv13/hd.m3u8
+- name: 香港01 | HKBN | 1X
+  password: e7fac0c2-868d-4a5e-810a-8a6f7e78648b
+  port: 42030
+  server: hkg01.service.nahidacloud.top
+  skip-cert-verify: true
+  sni: hkg01.service.nahidacloud.top
+  type: trojan
+  udp: true
+- name: 美国01 | 1X
+  password: e7fac0c2-868d-4a5e-810a-8a6f7e78648b
+  port: 443
+  server: us01.service.nahidacloud.top
+  skip-cert-verify: true
+  sni: us01.service.nahidacloud.top
+  type: trojan
+  udp: true
+- name: 新加坡01 | 1X
+  password: e7fac0c2-868d-4a5e-810a-8a6f7e78648b
+  port: 11000
+  server: sg01.service.nahidacloud.top
+  skip-cert-verify: true
+  sni: sg01.service.nahidacloud.top
+  type: trojan
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾01 | 1X
+  password: e7fac0c2-868d-4a5e-810a-8a6f7e78648b
+  port: 33143
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港02 | 1X
+  password: e7fac0c2-868d-4a5e-810a-8a6f7e78648b
+  port: 51663
+  server: sz.zj.my.1.76po.com
+  type: ss
+  udp: true
