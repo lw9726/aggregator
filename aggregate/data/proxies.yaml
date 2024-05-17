@@ -1,2019 +1,961 @@
 proxies:
-- name: 新加坡 01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 26606
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 新加坡 02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 26606
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 新加坡 03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 26606
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 新加坡 04
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19013
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 新加坡 05
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19013
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 新加坡 06
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19013
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: sg02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 16706
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk05.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 16706
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk05.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 16706
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk05.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港04
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 25106
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港05
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 25106
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港06
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 25106
-  server: f10011.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港 07
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 27969
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港 08
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 27969
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港 09
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 27969
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港10
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 10187
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk04.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港13
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 10187
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk04.ckcloud.info
-  type: trojan
-  udp: true
-- name: 香港12
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 10187
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: hk04.ckcloud.info
-  type: trojan
-  udp: true
-- name: 日本01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 29496
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: jp01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 日本03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 29496
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: jp01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 日本04
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 39520
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: jp03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 日本05
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 39520
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: jp03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 日本06
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 39520
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: jp03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19949
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19949
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 19949
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 04
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 49148
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 05
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 49148
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 台湾 06
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 49148
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tw02.ckcloud.info
-  type: trojan
-  udp: true
-- name: 越南 01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 55474
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: vn01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 越南 02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 55474
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: vn01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 越南 03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 55474
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: vn01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 印度01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 47497
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: id01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 印度03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 47497
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: id01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 印度02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 47497
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: id01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 德国01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 43654
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: de01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 德国02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 43654
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: de01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 英国01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 30273
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: uk01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 英国03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 30273
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: uk01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 英国02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 30273
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: uk01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 土耳其 01
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 11839
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tur01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 土耳其 02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 11839
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tur01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 土耳其 03
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 11839
-  server: f10002.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: tur01.ckcloud.info
-  type: trojan
-  udp: true
-- name: 美国02
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 51345
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: us03.ckcloud.info
-  type: trojan
-  udp: true
-- name: 美国05
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 58563
-  server: f10003.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: us04.ckcloud.info
-  type: trojan
-  udp: true
-- name: 美国06
-  password: 9cfc2186-bd97-4495-82a3-29707f2175fb
-  port: 58563
-  server: f10001.flyflylflyflysbs.sbs
-  skip-cert-verify: true
-  sni: us04.ckcloud.info
-  type: trojan
-  udp: true
 - cipher: aes-128-gcm
   name: 香港-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 58116
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14579
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 37181
   server: 02-danding-foxi.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 40869
   server: 01-foxi-aidajiuguanji.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 34846
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 10945
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 香港-07
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 28206
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 20517
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 38054
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 19256
   server: 02-danding-foxi.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 44359
   server: 01-foxi-aidajiuguanji.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 45853
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 29032
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-07
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 59806
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 日本-08
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 63014
   server: sdcu01.duiha.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 47287
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 32648
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 41027
   server: 02-danding-foxi.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 18902
   server: 01-foxi-aidajiuguanji.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 36964
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 61327
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 台湾-07
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 39756
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 58777
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 38406
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 15257
   server: 02-danding-foxi.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 10338
   server: 01-foxi-aidajiuguanji.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 27072
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 34074
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 美国-07
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 27132
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 32018
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14655
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 24094
   server: 02-danding-foxi.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 15838
   server: 01-foxi-aidajiuguanji.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 41000
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 34308
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 新加坡-07
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14697
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 46141
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 55103
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14188
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 61284
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 54574
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 韩国-06
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 13183
   server: sdcu01.duiha.cn
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 泰国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 27988
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 泰国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 43186
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 泰国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 56988
   server: 0szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 泰国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 63644
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 泰国-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 37185
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 英国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 13134
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 英国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 17130
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 英国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 55660
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 英国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 25597
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 英国-05
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 33142
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 德国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 29095
   server: 04-beiju.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 德国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 21945
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 德国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14525
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 德国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 53714
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 法国-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 14123
   server: 03-neibuyong.gangbi.vip
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 法国-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 45635
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 法国-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 46680
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 法国-04
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 29514
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 澳大利亚-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 31093
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 澳大利亚-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 61327
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 澳大利亚-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 56064
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 阿联酋-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 26637
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 阿联酋-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 52793
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 阿联酋-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 44988
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 巴基斯坦-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 24030
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 巴基斯坦-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 60734
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 巴基斯坦-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 31254
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 印度-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 39348
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 印度-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 60690
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 印度-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 13719
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 俄罗斯-01
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 22124
   server: szcm01.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 俄罗斯-02
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 46798
   server: nbct02.qingqiu.buzz
   type: ss
   udp: true
 - cipher: aes-128-gcm
   name: 俄罗斯-03
-  password: c7231bb2-5164-4527-a1af-373023ffd65c
+  password: 4a948864-f278-4369-8fe8-16c378db9423
   port: 45558
   server: nbcm01.qingqiu.buzz
   type: ss
   udp: true
-- name: 台湾01 | 1X TW
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 20367
-  server: 102twai.aixunx168.top
+- alterId: 0
+  cipher: auto
+  name: 美国1
+  network: ws
+  port: 80
+  server: 104.19.173.68
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 台湾02 | 1X TW
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 21876
-  server: 103twai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国2
+  network: ws
+  port: 80
+  server: whatismyipaddress.com
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡01 | 1X SG
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 23915
-  server: 104sgai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国3
+  network: ws
+  port: 80
+  server: fbi.gov
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡02 | 1X SG
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 27635
-  server: 105sgai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国4
+  network: ws
+  port: 80
+  server: www.pcmag.com
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡03 | 1X SG
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 28357
-  server: 106sgai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国5
+  network: ws
+  port: 80
+  server: www.digitalocean.com
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 日本01 | 1X JP
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 30881
-  server: 107jpai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国6
+  network: ws
+  port: 80
+  server: www.glassdoor.com
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 日本02 | 1X JP
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 31997
-  server: 108jpai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国7
+  network: ws
+  port: 80
+  server: www.udemy.com
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 日本03 | 1X JP
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 32556
-  server: 109jpai.aixunx168.top
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: usvmqlsgf1ljbtzjun8.lovemianfei.store
+    path: /
+- alterId: 0
+  cipher: auto
+  name: 美国IPV6
+  network: ws
+  port: 80
+  server: 2605:6400:20:124c:983b:d3a1:3143:f286
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 美国01 | 1X USA
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 40883
-  server: 110usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  uuid: 3cebeda6-5898-4a82-9d70-dda7abab2eb1
+  ws-opts:
+    headers:
+      Host: www.apple.com
+    path: /
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 65015
+  server: gstdnb.myfczy168.top
+  type: ss
   udp: true
-- name: 美国02 | 1X USA
-  password: ba9b6327-b955-44ab-872b-81be71421684
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 42921
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 03
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 2818
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 04
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 55174
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 05
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 29334
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 06
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 33879
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 07
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 20031
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 08
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 35803
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 香港中转 沪港002 2X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 36805
+  server: llshyd.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 沪台001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 57228
+  server: llshyd.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 30814
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 52273
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 03
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 36298
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 06
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 45039
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 07
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 32841
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 台湾中转 08
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 14224
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 沪日001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 34502
+  server: llshyd.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 24764
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 24522
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 03
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 55083
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 04
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 30278
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 05
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 21226
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 06
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 26839
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 07
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 38805
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 日本中转 08
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 18673
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 14017
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 23242
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 03
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 52590
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 沪新001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 23997
+  server: llshyd.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 06
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 29868
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 07
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 15770
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 新加坡中转 08
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 17122
+  server: gssh.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 53170
+  server: gstdnb.myfczy168.top
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: 美国中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
   port: 46052
-  server: 111usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国03 | 1X USA
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 51941
-  server: 112usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国04 | 1X USA
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 53341
-  server: 113usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 英国01 | 1X UK
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 14898
-  server: 114ukai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 英国02 | 1X UK
-  password: ba9b6327-b955-44ab-872b-81be71421684
-  port: 17342
-  server: 115ukai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 用不了 请使用备用节点
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 55626
-  server: 中转节点被攻击，加飞机群领备用订阅
+  server: gstdnb.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡03
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15627
-  server: sz.zj.my.1.76po.com
+  name: 美国中转 沪美001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 45235
+  server: llshyd.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国02
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15628
-  server: sz.zj.my.1.76po.com
+  name: 英国中转 01
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 44632
+  server: gstdnb.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港01
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15630
-  server: sz.zj.my.1.76po.com
+  name: 英国中转 02
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 58157
+  server: gstdnb.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港02
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15631
-  server: sz.zj.my.1.76po.com
+  name: 英国中转 沪英001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 20752
+  server: llshyd.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国01
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15532
-  server: sz.zj.my.1.76po.com
+  name: 下方节点速度稍慢
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 12241
+  server: 666.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 台湾01
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15632
-  server: sz.zj.my.1.76po.com
+  name: 香港中转 广港002 2X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 29852
+  server: llydby.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 英国01
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15634
-  server: sz.zj.my.1.76po.com
+  name: 台湾中转 广台001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 21427
+  server: llydby.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港03
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15635
-  server: sz.zj.my.1.76po.com
+  name: 日本中转 广日001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 24567
+  server: llydby.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡01
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15636
-  server: sz.zj.my.1.76po.com
+  name: 新加坡中转 广新001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 23257
+  server: llydby.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 新加坡02
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15637
-  server: sz.zj.my.1.76po.com
+  name: 美国中转 广美001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 27263
+  server: llydby.myfczy168.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港04-备用
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15638
-  server: gdvo.lyunsub.win
+  name: 英国中转 广英001 1.5X
+  password: fbf09e47-8cfb-4fb2-bfdb-ac6b76564eed
+  port: 26345
+  server: llydby.myfczy168.top
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港05-备用
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 55639
-  server: njyd01.isp3.cfd
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国03备用
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15640
-  server: gdvo.lyunsub.win
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港06-备用
-  password: 773b7daa-f795-4107-8e0b-240b6e8dbe0d
-  port: 15638
-  server: gdvo.lyunsub.win
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 58116
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14579
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 37181
-  server: 02-danding-foxi.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 40869
-  server: 01-foxi-aidajiuguanji.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 34846
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 10945
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 香港-07
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 28206
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 20517
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 38054
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 19256
-  server: 02-danding-foxi.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 44359
-  server: 01-foxi-aidajiuguanji.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 45853
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 29032
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-07
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 59806
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 日本-08
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 63014
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 47287
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 32648
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 41027
-  server: 02-danding-foxi.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 18902
-  server: 01-foxi-aidajiuguanji.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 36964
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 61327
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 台湾-07
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 39756
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 58777
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 38406
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 15257
-  server: 02-danding-foxi.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 10338
-  server: 01-foxi-aidajiuguanji.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 27072
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 34074
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 美国-07
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 27132
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 32018
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14655
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 24094
-  server: 02-danding-foxi.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 15838
-  server: 01-foxi-aidajiuguanji.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 41000
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 34308
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 新加坡-07
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14697
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 46141
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 55103
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14188
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 61284
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 54574
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 韩国-06
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 13183
-  server: sdcu01.duiha.cn
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 泰国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 27988
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 泰国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 43186
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 泰国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 56988
-  server: 0szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 泰国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 63644
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 泰国-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 37185
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 英国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 13134
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 英国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 17130
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 英国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 55660
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 英国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 25597
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 英国-05
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 33142
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 德国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 29095
-  server: 04-beiju.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 德国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 21945
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 德国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14525
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 德国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 53714
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 法国-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 14123
-  server: 03-neibuyong.gangbi.vip
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 法国-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 45635
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 法国-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 46680
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 法国-04
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 29514
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 澳大利亚-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 31093
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 澳大利亚-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 61327
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 澳大利亚-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 56064
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿联酋-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 26637
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿联酋-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 52793
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 阿联酋-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 44988
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 巴基斯坦-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 24030
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 巴基斯坦-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 60734
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 巴基斯坦-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 31254
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 印度-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 39348
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 印度-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 60690
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 印度-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 13719
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 俄罗斯-01
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 22124
-  server: szcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 俄罗斯-02
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 46798
-  server: nbct02.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: 俄罗斯-03
-  password: 2aca1132-26ef-44b3-9e3f-6d5ec9ab0c4c
-  port: 45558
-  server: nbcm01.qingqiu.buzz
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HK | 香港01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15000
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HK | 香港02
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15001
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HK | 香港03
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15002
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: SG | 新加坡01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15003
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: SG | 新加坡02
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15004
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: SG | 新加坡03
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15005
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: JP | 日本01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15006
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: JP | 日本02
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15007
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: JP | 日本03
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15008
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: US | 美国01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15009
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: US | 美国02
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15010
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: TW | 台湾01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15011
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: TH | 泰国01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15012
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: HP | 菲律宾01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15013
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: AU | 澳洲01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15018
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: KR | 韩国01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15014
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: UK | 英国01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15015
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: RU | 俄罗斯01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15016
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: PK | 巴基斯坦01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15017
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: ID | 印度01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15019
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- cipher: aes-128-gcm
-  name: TR | 土耳其01
-  password: 1689cb44-bc64-41c9-9734-6630fc52ec9c
-  port: 15020
-  server: jd.qlyjd.cc
-  type: ss
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 大阪 01
-  network: ws
-  port: 2086
-  server: jp01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: jp01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 大阪 02
-  network: ws
-  port: 2086
-  server: jp01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: jp01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 德国 01
-  network: ws
-  port: 2086
-  server: de01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: de01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 德国 02
-  network: ws
-  port: 2086
-  server: de01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: de01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 韩国 01
-  network: ws
-  port: 2086
-  server: kr01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: kr01.appleid.bf
-    path: /ws?ed=2048
-- alterId: 0
-  cipher: auto
-  name: 韩国 02
-  network: ws
-  port: 2086
-  server: kr01.appleid.bf
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: f730080e-7403-4a10-8143-6351e6e41a41
-  ws-opts:
-    headers:
-      Host: kr01.appleid.bf
-    path: /ws?ed=2048
-- name: 01凤凰城AMD2
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 01amd2.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 15巴西圣保罗AMD
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 15amd1.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 59春川AMD2
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 59amd2.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 04日本大阪AMD
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 04amd.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 12迪拜ARM
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 12arm.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 55阿什本ARM
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 55arm.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 37春川AMD
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 37amd.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 37春川ARM
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 37arm.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 11圣何塞ARM1
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 11arm1.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 11圣何塞AMD1
-  password: a063ef52-056b-401e-a442-4ce97b63eaa0
-  port: 443
-  server: 11amd1.1365365.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- alterId: 0
-  cipher: auto
-  name: 36悉尼AMD-VMESS
-  network: ws
-  port: 443
-  server: 36amd.1365365.xyz
-  servername: 36amd.1365365.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a063ef52-056b-401e-a442-4ce97b63eaa0
-  ws-opts:
-    headers:
-      Host: 36amd.1365365.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 01美国凤凰城-ARM
-  network: ws
-  port: 8443
-  server: 01armcdn.1365365.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a063ef52-056b-401e-a442-4ce97b63eaa0
-  ws-opts:
-    headers:
-      Host: 12arm.1365365.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 01美国凤凰城CDN-AMD2
-  network: ws
-  port: 8443
-  server: 01amd2cdn.1365365.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: a063ef52-056b-401e-a442-4ce97b63eaa0
-  ws-opts:
-    headers:
-      Host: 12arm.1365365.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 59韩国春川CDN-ARM
-  network: ws
-  port: 2083
-  server: 59armcdn.1365365.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a063ef52-056b-401e-a442-4ce97b63eaa0
-  ws-opts:
-    headers:
-      Host: 12arm.1365365.xyz
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 11美国圣何塞CLOUDFLARE-ARM2-VMESS
-  network: ws
-  port: 8443
-  server: cdn11arm2.1365365.xyz
-  skip-cert-verify: true
-  tls: true
-  type: vmess
-  udp: true
-  uuid: a063ef52-056b-401e-a442-4ce97b63eaa0
-  ws-opts:
-    headers:
-      Host: 12arm.1365365.xyz
-    path: /
