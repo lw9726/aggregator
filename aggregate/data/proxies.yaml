@@ -1,113 +1,91 @@
 proxies:
-- name: 台湾01 | 1X TW
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 20367
-  server: 102twai.aixunx168.top
+- alterId: 0
+  cipher: auto
+  name: 大阪 01
+  network: ws
+  port: 2086
+  server: jp01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 台湾02 | 1X TW
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 21876
-  server: 103twai.aixunx168.top
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: jp01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 大阪 02
+  network: ws
+  port: 2086
+  server: jp01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡01 | 1X SG
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 23915
-  server: 104sgai.aixunx168.top
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: jp01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 德国 01
+  network: ws
+  port: 2086
+  server: de01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡02 | 1X SG
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 27635
-  server: 105sgai.aixunx168.top
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: de01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 德国 02
+  network: ws
+  port: 2086
+  server: de01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 新加坡03 | 1X SG
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 28357
-  server: 106sgai.aixunx168.top
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: de01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 01
+  network: ws
+  port: 2086
+  server: kr01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 日本01 | 1X JP
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 30881
-  server: 107jpai.aixunx168.top
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: kr01.appleid.bf
+    path: /ws?ed=2048
+- alterId: 0
+  cipher: auto
+  name: 韩国 02
+  network: ws
+  port: 2086
+  server: kr01.appleid.bf
   skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
+  tls: false
+  type: vmess
   udp: true
-- name: 日本02 | 1X JP
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 31997
-  server: 108jpai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 日本03 | 1X JP
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 32556
-  server: 109jpai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国01 | 1X USA
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 40883
-  server: 110usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国02 | 1X USA
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 46052
-  server: 111usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国03 | 1X USA
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 51941
-  server: 112usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 美国04 | 1X USA
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 53341
-  server: 113usai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 英国01 | 1X UK
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 14898
-  server: 114ukai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
-- name: 英国02 | 1X UK
-  password: 769abede-06f0-4207-b205-94363c6a46c7
-  port: 17342
-  server: 115ukai.aixunx168.top
-  skip-cert-verify: true
-  sni: aixunx168.top
-  type: trojan
-  udp: true
+  uuid: b210b5b4-4089-493e-b596-f571e507c5d6
+  ws-opts:
+    headers:
+      Host: kr01.appleid.bf
+    path: /ws?ed=2048
