@@ -1,125 +1,187 @@
 proxies:
 - alterId: 0
   cipher: auto
-  name: SZ-OAG
-  port: 11018
-  server: qaz.596743944.top
+  name: G美国-免费
+  network: ws
+  port: 80
+  server: 139.28.232.223
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 51846967-612b-4c92-bb3f-2c6bdf268a47
-- cipher: chacha20-ietf-poly1305
-  name: 备用
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 29584
-  server: gub-.596743944.top
+  uuid: 39453998-f399-4a7a-8a6d-547e1d7b9f54
+  ws-opts:
+    headers:
+      Host: usfree.1234585.xyz
+    path: /
+- cipher: aes-256-gcm
+  name: A台湾
+  password: 39453998-f399-4a7a-8a6d-547e1d7b9f54
+  port: 37070
+  server: hinet-wap.myddns.me
   type: ss
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 香港001
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11001
-  server: hka-.596743944.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 美国001
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11007
-  server: gub-.596743944.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾001
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11005
-  server: hka-.596743944.top
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 台湾流媒体 解锁
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11004
-  server: guc-.596743944.top
+- cipher: aes-256-gcm
+  name: A台湾-IPV6
+  password: 39453998-f399-4a7a-8a6d-547e1d7b9f54
+  port: 37070
+  server: 2001:b030:a42d:5dcd::8b
   type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: 法国IEPL
-  port: 11019
-  server: hzcu.kd69.vip
+  name: 日本A
+  network: ws
+  port: 80
+  server: 13.33.100.13
   skip-cert-verify: true
   tls: false
   type: vmess
   udp: true
-  uuid: 51846967-612b-4c92-bb3f-2c6bdf268a47
+  uuid: 39453998-f399-4a7a-8a6d-547e1d7b9f54
+  ws-opts:
+    headers:
+      Host: dpxpg5vk2nkog.cloudfront.net
+    path: /
 - alterId: 0
   cipher: auto
-  name: 印度IEPL02
-  port: 11011
-  server: qaz.596743944.top
+  name: 英国-01
+  port: 443
+  server: uk-01.speedup.club
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 51846967-612b-4c92-bb3f-2c6bdf268a47
+  uuid: 044586e5-c833-4dc2-960d-ca9a16c5cdf4
 - alterId: 0
   cipher: auto
-  name: 印度IEPL01
-  port: 11012
-  server: hka-.596743944.top
+  name: 香港-02
+  port: 443
+  server: hk-02.speedup.club
   skip-cert-verify: true
-  tls: false
+  tls: true
   type: vmess
   udp: true
-  uuid: 51846967-612b-4c92-bb3f-2c6bdf268a47
-- cipher: chacha20-ietf-poly1305
-  name: 美国GTP转用565
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11006
-  server: shdx.kd69.vip
-  type: ss
+  uuid: 044586e5-c833-4dc2-960d-ca9a16c5cdf4
+- alterId: 0
+  cipher: auto
+  name: 美国-03
+  port: 443
+  server: us-03.speedup.club
+  skip-cert-verify: true
+  tls: true
+  type: vmess
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本NF2
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11008
-  server: shcua.donghui.tech
-  type: ss
+  uuid: 044586e5-c833-4dc2-960d-ca9a16c5cdf4
+- name: 台湾01 | 1X TW
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 20367
+  server: 102twai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 日本NF2
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11009
-  server: hka-.596743944.top
-  type: ss
+- name: 台湾02 | 1X TW
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 21876
+  server: 103twai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国IEPL1
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11013
-  server: hka-.596743944.top
-  type: ss
+- name: 新加坡01 | 1X SG
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 23915
+  server: 104sgai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 英国IEPL3
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11014
-  server: qaz_.596743944.top
-  type: ss
+- name: 新加坡02 | 1X SG
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 27635
+  server: 105sgai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国1
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11011
-  server: qaz_.596743944.top
-  type: ss
+- name: 新加坡03 | 1X SG
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 28357
+  server: 106sgai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 德国2
-  password: 51846967-612b-4c92-bb3f-2c6bdf268a47
-  port: 11012
-  server: hzcu.kd69.vip
-  type: ss
+- name: 日本01 | 1X JP
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 30881
+  server: 107jpai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 日本02 | 1X JP
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 31997
+  server: 108jpai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 日本03 | 1X JP
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 32556
+  server: 109jpai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 美国01 | 1X USA
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 40883
+  server: 110usai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 美国02 | 1X USA
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 46052
+  server: 111usai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 美国03 | 1X USA
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 51941
+  server: 112usai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 美国04 | 1X USA
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 53341
+  server: 113usai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 英国01 | 1X UK
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 14898
+  server: 114ukai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
+  udp: true
+- name: 英国02 | 1X UK
+  password: bf43d63f-8cbc-4b22-83cd-8d9eab6acc49
+  port: 17342
+  server: 115ukai.aixunx168.top
+  skip-cert-verify: true
+  sni: aixunx168.top
+  type: trojan
   udp: true
