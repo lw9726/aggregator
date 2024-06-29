@@ -1,608 +1,200 @@
 proxies:
 - cipher: chacha20-ietf-poly1305
-  name: 香港01丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 36731
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 香港1
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 17373
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港01丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 18641
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 香港2
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 20469
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港02丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 23416
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 香港3
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 46505
+  server: xzj.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港02丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 23416
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 新加坡1
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 56064
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港03丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 36731
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 新加坡2
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 44533
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 香港03丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 36731
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 新加坡3
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 44020
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城01丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 20010
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 日本1
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 33049
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城01丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 20010
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 日本2
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 33693
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城02丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 25648
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 日本3
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 12879
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城02丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 25648
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 美国1
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 59127
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城03丨上海移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 15764
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 美国2
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 47007
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 狮城03丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 15764
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 美国3
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 35493
+  server: gy.lalaxis.top
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本01丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 18434
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 韩国
+  password: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+  port: 20078
+  server: gy.lalaxis.top
+  type: ss
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: 台湾
+  port: 10228
+  server: gy.lalaxis.top
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  udp: true
+  uuid: c60e1ae2-b01e-4aec-b9f5-acb9f242e75f
+- cipher: chacha20-ietf-poly1305
+  name: 台湾 1
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20032
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本01丨宁波移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 18434
-  server: a79e3883418368ff.cdn.jiashule.com
+  name: 台湾01
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 47564
+  server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本02丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 16013
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 香港01
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 34338
+  server: gd.xueyejiasu.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本02丨宁波移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 16013
-  server: a79e3883418368ff.cdn.jiashule.com
+  name: 香港02
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20035
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本03丨山东移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 42684
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 香港03
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20052
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 日本03丨宁波移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 42684
-  server: a79e3883418368ff.cdn.jiashule.com
+  name: 日本01
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20002
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 印度01丨移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 29244
-  server: 0e8383f2446d374c.cdn.jiashule.com
+  name: 日本02
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20004
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国01丨移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 26084
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 日本03
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20006
+  server: gy.666666222.shop
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: 美国02丨移动优化
-  password: 36ed858c-2e21-48c8-8f62-86509deb101a
-  port: 34974
-  server: afa007d388783f3a.cdn.jiashule.com
+  name: 日本04
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20008
+  server: gy.666666222.shop
   type: ss
   udp: true
-- alterId: 0
-  cipher: auto
-  name: V1 香港 移动专线
-  port: 31011
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 美国01
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 56011
+  server: gd.xueyejiasu.com
+  type: ss
   udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 台湾 移动专线
-  port: 31021
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 美国02
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 58159
+  server: gd.xueyejiasu.com
+  type: ss
   udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 日本 移动专线
-  port: 31031
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 美国03
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 42414
+  server: gd.xueyejiasu.com
+  type: ss
   udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 新加坡 移动专线
-  port: 31041
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 美国 纽约01
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20013
+  server: gy.666666222.shop
+  type: ss
   udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 韩国 移动专线
-  port: 31051
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
+- cipher: chacha20-ietf-poly1305
+  name: 美国 纽约2
+  password: 583a3930-eb3d-4f77-9e0b-0bacd236044c
+  port: 20016
+  server: gy.666666222.shop
+  type: ss
   udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 美国 移动专线
-  port: 31061
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 泰国 移动专线
-  port: 31081
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 越南 移动专线
-  port: 31082
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 德国 移动专线
-  port: 31091
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 英国 移动专线
-  port: 31092
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V1 澳大利亚 移动专线
-  port: 31093
-  server: azi.cm.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 香港 华南专线
-  port: 31011
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 香港 华中专线
-  port: 31111
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 台湾 华南专线
-  port: 31021
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 台湾 华中专线
-  port: 31121
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 日本 华南专线
-  port: 31031
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 日本 华中专线
-  port: 31131
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 新加坡 华南专线
-  port: 31041
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 新加坡 华中专线
-  port: 31141
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 美国 华南专线
-  port: 31061
-  server: azi.cm2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 美国 华中专线
-  port: 31161
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 泰国 华南专线
-  port: 31181
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 越南 华南专线
-  port: 31182
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 德国 华南专线
-  port: 31191
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 英国 华南专线
-  port: 31192
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V2 澳大利亚 华南专线
-  port: 31193
-  server: azi.ct.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 香港 华南专线-NF
-  port: 31011
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 香港 华中专线-NF
-  port: 31411
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 香港 华东专线-NF
-  port: 31411
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 台湾 华南专线-NF
-  port: 31021
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 台湾 华中专线-NF
-  port: 31421
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 台湾 华东专线-NF
-  port: 31421
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 日本 华南专线-NF
-  port: 31331
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 日本 华中专线-NF
-  port: 31431
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 日本 华东专线-NF
-  port: 31431
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 新加坡 华南专线-NF
-  port: 31341
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 新加坡 华中专线-NF
-  port: 31441
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 新加坡 华东专线-NF
-  port: 31441
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 美国 华南专线-NF
-  port: 31361
-  server: azi.cm3.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 美国 华中专线-NF
-  port: 31461
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 美国 华东专线-NF
-  port: 31461
-  server: azi.cn2.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 泰国 华南专线
-  port: 31481
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 越南 华中专线
-  port: 31482
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 德国 华南专线
-  port: 31491
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 英国 华东专线
-  port: 31492
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
-- alterId: 0
-  cipher: auto
-  name: V3 澳大利亚 华东专线
-  port: 31493
-  server: azi.cn1.xiaomi-api.xyz
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: e33a3dc6-b7b2-4a20-8576-60b13c92dbaa
